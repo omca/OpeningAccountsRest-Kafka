@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "NotificationEvent",
+  "namespace": "com.bank.opening.accounts.model.avro",
+  "fields": [
+    { "name": "accountId", "type": "string" },
+    { "name": "email", "type": "string" },
+    { "name": "message", "type": "string" },
+    { "name": "timestamp", "type": "string", "logicalType": "timestamp-millis" }
+  ]
+}

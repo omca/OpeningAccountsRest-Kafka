@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "AccountOpened",
+  "namespace": "com.bank.opening.accounts.model.avro",
+  "fields": [
+    {
+      "name": "accountId",
+      "type": "string"
+    },
+    {
+      "name": "accountHolder",
+      "type": "string"
+    },
+    {
+      "name": "accountType",
+      "type": "string"
+    },
+    {
+      "name": "balance",
+      "type": "double"
+    },
+    {
+      "name": "dateOpened",
+      "type": "string"
+    }
+  ]
+}

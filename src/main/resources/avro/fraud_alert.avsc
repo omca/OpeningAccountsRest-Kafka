@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "FraudAlert",
+  "namespace": "com.bank.opening.accounts.model.avro",
+  "fields": [
+    { "name": "transactionId", "type": "string" },
+    { "name": "accountId", "type": "string" },
+    { "name": "alertType", "type": "string" },
+    { "name": "transactionAmount", "type": "double" },
+    { "name": "location", "type": "string" },
+    { "name": "timestamp", "type": "string", "logicalType": "timestamp-millis" }
+  ]
+}

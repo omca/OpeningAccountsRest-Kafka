@@ -1,0 +1,3 @@
+{
+  "schema": "{ \"type\": \"record\", \"name\": \"AccountOpened\", \"namespace\": \"com.bank.listener\", \"fields\": [ { \"name\": \"accountId\", \"type\": \"string\" }, { \"name\": \"accountHolder\", \"type\": \"string\" }, { \"name\": \"accountType\", \"type\": \"string\" }, { \"name\": \"balance\", \"type\": \"double\" }, { \"name\": \"dateOpened\", \"type\": \"string\" } ] }"
+}

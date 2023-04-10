@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "TransactionProcessed",
+  "namespace": "com.bank.opening.accounts",
+  "fields": [
+    {
+      "name": "transactionId",
+      "type": "string"
+    },
+    {
+      "name": "accountId",
+      "type": "string"
+    },
+    {
+      "name": "transactionAmount",
+      "type": "double"
+    },
+    {
+      "name": "transactionDate",
+      "type": "string"
+    },
+    {
+      "name": "transactionStatus",
+      "type": "string"
+    }
+  ]
+}
